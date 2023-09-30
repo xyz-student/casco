@@ -1,0 +1,67 @@
+@media only screen and (min-width: 478px) and (max-width: 959px) {
+
+#toppanel{
+	width:100%;
+	display:none;
+}
+#logo{
+	width:100%;
+	float:none;
+	margin: 0 auto;
+	margin-top:10px;
+	margin-bottom:0px;
+}
+#welcome h2{
+	font-family:'droid_sansregular';
+	font-size:26px;
+	color:#2c2c2c;
+	line-height:25px;
+	padding-bottom:20px;
+	text-align:center;
+	font-weight:400;
+	text-transform:uppercase;
+}
+#proimages{
+	width:100%;
+	margin: 0 auto;
+}
+#recent{
+	float:none;
+	width:100%;
+	margin: 0 auto;
+}
+
+
+}
+@media only screen and (max-width: 479px) {
+#toppanel{
+	width:100%;
+	display:none;
+}
+#logo{
+	width:100%;
+	float:none;
+	margin: 0 auto;
+	margin-top:10px;
+	margin-bottom:0px;
+}
+#welcome h2{
+	font-family:'droid_sansregular';
+	font-size:26px;
+	color:#2c2c2c;
+	line-height:25px;
+	padding-bottom:20px;
+	text-align:center;
+	font-weight:400;
+	text-transform:uppercase;
+}
+#proimages{
+	width:100%;
+	margin: 0 auto;
+}
+#recent{
+	float:none;
+	width:100%;
+	margin: 0 auto;
+}
+}

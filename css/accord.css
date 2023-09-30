@@ -1,0 +1,151 @@
+
+.accordion_toggle {
+			display: block;
+			height: 30px;
+			width: 100%;
+			background: url(images/accordion_toggle.jpg) no-repeat top right #0d62a2;
+			padding: 0 10px 0 10px;
+			line-height: 30px;
+			color: #ffffff !important;
+			font-weight: normal;
+			text-decoration: none;
+			outline: none;
+			font-size: 12px;
+			border-bottom: 1px solid #094d80;
+			cursor: pointer;
+			margin: 0 0 0 0;
+		}
+		
+		.accordion_toggle_active {
+			background: url(images/accordion_toggle_active.jpg) no-repeat top right #e0542f;
+			color: #ffffff;
+			border-bottom: 1px solid #f68263;
+		}
+		
+		.accordion_content {
+			background-color: #ffffff;
+			color: #444444;
+			overflow: hidden;
+		}
+			
+			.accordion_content h2 {
+				margin: 15px 0 5px 10px;
+				color: #0099FF;
+			}
+			
+			
+			h2.accordion_toggle{ color:#FFFFFF; font-size:14px; padding-left:15px;}
+			
+			.accordion_content p {
+				line-height: 150%;
+				padding: 5px 10px 15px 10px;
+			}
+			
+		.vertical_accordion_toggle {
+			display: block;
+			height: 30px;
+			width: 100% !important;
+			background: url(images/accordion_toggle.jpg) no-repeat top right #1a8de4;
+			padding: 0 10px 0 10px;
+			line-height: 30px;
+			color: #ffffff !important;
+			font-weight: normal;
+			text-decoration: none;
+			outline: none;
+			font-size: 12px;
+
+			border-bottom: 1px solid #cde99f;
+			cursor: pointer;
+			margin: 0 0 0 0;
+		}
+
+		.vertical_accordion_toggle_active {
+			background: url(images/accordion_toggle_active.jpg) no-repeat top right #e0542f;
+			color: #ffffff;
+			border-bottom: 1px solid #f68263;
+		}
+
+		.vertical_accordion_content {
+			background-color: #ffffff;
+			color: #444444;
+			overflow: hidden;
+			width:240px !important;
+		}
+		
+		
+		#vertical_container{ border:1px solid #ccc;}
+
+			.vertical_accordion_content h2 {
+				margin: 15px 0 5px 10px;
+				color: #0099FF;
+			}
+
+			.vertical_accordion_content p {
+				line-height: 150%;
+				padding: 5px 10px 5px 10px;
+			}
+  			
+		/*
+			Horizontal Accordion
+		*/
+		
+		.horizontal_accordion_toggle {
+			/* REQUIRED */
+			float: left;	/* This make sure it stays horizontal */
+			/* REQUIRED */
+
+			display: block;
+			height: 100px;
+			width: 30px;
+			background: url(images/h_accordion_toggle.jpg) no-repeat top left #a9d06a;
+			color: #ffffff;
+			text-decoration: none;
+			outline: none;
+			border-right: 1px solid #cde99f;
+			cursor: pointer;
+			margin: 0 0 0 0;
+		}
+		
+		.horizontal_accordion_toggle_active {
+			background: url(images/h_accordion_toggle_active.jpg) no-repeat top left #e0542f;
+			border-right: 1px solid #f68263;
+		}
+		
+		.horizontal_accordion_content {
+			/* REQUIRED */
+			height: 100px;	/* We need to define a height for the accordion as it stretches the width */
+			float: left;	/* This make sure it stays horizontal */
+			/* REQUIRED */
+			
+			overflow: hidden;
+			background-color: #ffffff;
+			color: #444444;
+		}
+			
+			.horizontal_accordion_content p {
+				width: 450px;
+				line-height: 150%;
+				padding: 5px 10px 15px 10px;
+			}
+					
+					
+    /* Container styling*/
+    #horizontal_container {
+      margin: 20px auto 20px auto;
+      width: 680px;   
+      height: 100px;    
+    }
+    
+    #vertical_nested_container {
+      margin: 20px auto 20px auto;
+      width: 620px;
+    }
+	
+ul.ListBox{ list-style:none; margin:0px 0 15px 0px; padding:0px 0 0 0px;}
+ul.ListBox li{ border-bottom:1px solid #CCCCCC; /*padding:5px 5px 5px 14px !important;*/ font-size:13px; display:block; margin:0px; 
+background:url(../images/bullicon.png) no-repeat 10px 6px; padding-left:19px !important;}
+ul.ListBox li:last-child{ border-bottom:0px;}
+
+
+ul.ListBox li a{ text-decoration:none; color:#000000; font-size:13px; padding:3px 5px 3px 14px !important; display:block;}
+ul.ListBox li:hover{ background:#f5f5f5 url(../images/bullicon.png) no-repeat 10px 6px; padding-left:19px !important;}
